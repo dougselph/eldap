@@ -5,7 +5,10 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+									crypto,
+									public_key,
+									ssl
                  ]},
   {mod, { eldap_app, []}},
   {env, []}
