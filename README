@@ -1,3 +1,9 @@
+This fork has been modified to ensure that the crypto, 
+public_key and ssl apps are started before eldap so
+that LDAP bind requests using SSL can succeed.
+
+*********
+
 Hi, 
 
 This is 'eldap', the Erlang LDAP library.
